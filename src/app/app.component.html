@@ -1,0 +1,12 @@
+<div class="container">
+  <h3>CURD Application</h3>
+  <table class="table table-bordered">
+    <tr><th>Name</th>
+    </tr>
+    <tr *ngFor="let dt of data">
+      <td> {{dt.name}}</td>
+    </tr>
+  </table>
+</div>
+<app-adduser></app-adduser>
+<router-outlet></router-outlet>
